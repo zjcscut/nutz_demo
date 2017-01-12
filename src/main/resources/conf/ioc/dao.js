@@ -19,4 +19,8 @@ var ioc = {
         type: "org.nutz.dao.impl.NutDao",
         args: [{refer: "dataSource"}]
     }
+
+    // $aop: {
+    //     type: 'org.throwable.aop.config.AnthorJsonAopConfiguration'
+    // }
 };

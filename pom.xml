@@ -6,6 +6,9 @@
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>nutz_demo</name>
+    <properties>
+        <jackson.version>2.8.5</jackson.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -30,6 +33,22 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.38</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
 
     </dependencies>

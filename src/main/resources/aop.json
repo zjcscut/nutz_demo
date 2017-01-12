@@ -1,0 +1,14 @@
+[
+  {
+    "className": "org.throwable.service.+",
+    "methodName": ".+",
+    "interceptor": "org.throwable.aop.interceptor.AbstractLogExInterceptor",
+    "singleton": true
+  },
+  {
+    "className": "org.throwable.service.+",
+    "methodName": ".+",
+    "interceptor": "org.throwable.aop.interceptor.OriginSystemLogInterceptor",
+    "singleton": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "loaderName": "*org.throwable.aop.AbstractLogAopLoader"
+  },
+  {
+    "loaderName": "*org.throwable.aop.OriginSystemLogAopLoader"
+  }
+]
