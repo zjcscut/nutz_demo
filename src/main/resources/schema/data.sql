@@ -1,0 +1,1 @@
+INSERT INTO `TB_AT_USER` (`NAME`, `BIRTH`, `AGE`, `EMAIL`) VALUES ('zjc', '2017-01-12 11:35:24', '23', '11@163.com');
